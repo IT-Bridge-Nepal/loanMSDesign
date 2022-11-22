@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*background-color: #fff!important;*/
+}
+
+body{
+    font-size: 20px;
+}
+
+ .tamasuk, .mangurinama, .jamani{
+    /*width: 210mm;*/
+    /* height: 297mm; */
+    position: relative;
+    overflow: hidden;
+   background-color: #fff!important;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h1{
+    margin-top: 50px;
+}
+
+.main-row{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-col{
+    flex: 0 0 21%;
+    max-width: 21%;
+    position: relative;
+    width: 100%;
+    padding-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    /* display: flex; */
+
+}
+
+.left-col .finger-print1{
+    width: 100%;
+    padding-left: 100px;
+}
+
+.left-col .list{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.left-col .list .ver1{
+    margin: 0px 30px;
+    white-space: nowrap;
+}
+
+.left-col p.test2 {
+    writing-mode: vertical-rl;
+  }
+
+.right-col{
+    flex: 0 0 79%;
+    max-width: 79%;
+    position: relative;
+    width: 100%;
+    padding:60px 20px 0px 20px;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.right-col h2{
+    text-align: center;
+    margin: 40px auto 40px auto;
+}
+
+.right-col table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+
+  }
+
+ .right-col table tr, th ,td{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+  }
+
+ .right-col table tr{
+    height: 35px;
+ }
+
+ .right-col .date-line{
+    text-align: center;
+    margin: 50px auto;
+ }
+
+ .finger-print{
+    margin-top: 60px;
+    float: right;
+ }
+
+ /*................Tamasuk..............*/
+.right-col .dateline{
+  text-align: center;
+  margin: 30px auto 10px auto;
+}
+
+.right-col .finger{
+  text-align: center;
+  margin: auto 10px;
+}
+
+.finger .fingerprint {
+  margin-top: 10px;
+}
+.finger .fingerprint h5{
+  margin-bottom: 40px;
+}
+
+/*................Jamani..............*/
+.jamani .heading h1{
+  margin-top: 5px;
+}
+
+.jamani .left-col{
+  flex: 0 0 18%;
+  max-width: 18%;
+  position: relative;
+  width: 100%;
+  padding-left: 5px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.jamani .left-col .list{
+  margin-top: 5px;
+  display: flex;
+  width: 100%;
+  /*overflow: hidden;*/
+}
+
+.jamani .left-col .list .ver1{
+  margin: 0px 20px;
+  white-space: nowrap;
+}
+
+.jamani .right-col{
+  flex: 0 0 82%;
+  max-width: 82%;
+  position: relative;
+  width: 100%;
+  padding:5px 20px 30px 0px;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+.jamani .right-col .left-col-6{
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.jamani .right-col .right-col-6{
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+}
+
+.jamani .right-col .left-col-6 h3{
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 25px;
+}
+.jamani .right-col .left-col-6 ul{
+  list-style: none;
+  margin-left: 10px;
+}
+
+.jamani .right-col .left-col-6 ul li{
+  margin: 20px auto;
+}
+
+.jamani .right-col .right-col-6 p{
+  padding-left: 35px;
+}
+
+.jamani .right-col .right-col-6 .main-right-row{
+  /*justify-content: space;*/
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right-col-6 .main-right-row .fingerprint {
+  flex: 0 0 38%;
+  max-width: 38%;
+  position: relative;
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  height: 200px;
+  text-align: center;
+}
+
+.main-row .right-col-6 ul{
+  list-style: none;
+}
+
+.main-row right-col-6 ul li{
+  margin: 5px auto;
+}
+
+ @media print {
+
+    .tamasuk, .mangurinama, .jamani{
+        /*width: 210mm;*/
+        /*height: 297mm;*/
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}
